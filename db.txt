@@ -1,0 +1,32 @@
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  email TEXT UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL,
+  name TEXT,
+  avatar_url TEXT
+);
+
+CREATE TABLE podcasts (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  description TEXT,
+  author_id INT REFERENCES users(id),
+  cover_url TEXT,
+  category TEXT
+);
+
+CREATE TABLE episodes (
+  id SERIAL PRIMARY KEY,
+  podcast_id INT REFERENCES podcasts(id),
+  title TEXT NOT NULL,
+  description TEXT,
+  audio_url TEXT,
+  duration INT,
+  published_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE subscriptions (
+  user_id INT REFERENCES users(id),
+  podcast_id INT REFERENCES podcasts(id),
+  PRIMARY KEY (user_id, podcast_id)
+);
