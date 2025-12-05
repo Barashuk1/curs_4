@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:4:5-67
-11-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:4:22-64
+11-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:5:5-79
-12-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:5:22-76
+12-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:5:22-76
 13
 14    <permission
 14-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -27,31 +27,31 @@
 18-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:7:5-17:19
+20-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:5-17:19
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="true"
 24        android:label="WebApp"
-24-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:7:18-40
+24-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:18-40
 25        android:testOnly="true"
 26        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-26-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:7:41-99
+26-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:41-99
 27        <activity
-27-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:8:9-15:20
+27-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:8:9-15:20
 28            android:name="com.example.webapp.MainActivity"
-28-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:9:13-41
+28-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:9:13-41
 29            android:exported="true" >
-29-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:10:13-36
+29-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:10:13-36
 30            <intent-filter>
-30-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:11:13-14:29
+30-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:11:13-14:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:12:17-69
-31-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:12:25-66
+31-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:12:17-69
+31-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:12:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:13:17-77
-33-->D:\android_project_fixed\app\src\main\AndroidManifest.xml:13:27-74
+33-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:13:17-77
+33-->D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:13:27-74
 34            </intent-filter>
 35        </activity>
 36

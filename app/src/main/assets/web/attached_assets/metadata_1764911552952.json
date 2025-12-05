@@ -1,0 +1,5 @@
+{
+  "name": "Podcast Pro Web",
+  "description": "A fully functional Podcast Application featuring user authentication, podcast streaming, social interactions, and admin controls. Built as a PWA-ready React application to mimic the requested mobile experience.",
+  "requestFramePermissions": []
+}
