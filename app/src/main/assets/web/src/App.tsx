@@ -13,7 +13,6 @@ import {
 const getVimeoEmbedId = (url: string) => {
     if (!url) return null;
 
-    // Handle Vimeo URLs - more flexible regex
     const vimeoRegExp = /vimeo\.com\/(?:manage\/videos\/)?(\d+)/;
     const vimeoMatch = url.match(vimeoRegExp);
 
