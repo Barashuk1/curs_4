@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:1:1-18:12
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\8c7c29612707c12dd641205a16448202\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\aedb68803c9dda89b73681977bdbdcc4\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\93055347a520288dc7a8f9f3c912167a\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -35,25 +35,27 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Admin\.gradle\cache
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\9a6b8a05675a17c8dc0e2632c9f92eb5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\98349e5510eb560dd0548d451888af84\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:5-33
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:5-17:19
-INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:5-17:19
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:9:5-30:19
+INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:9:5-30:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\77ceeb928524fac2d2e51dee6d33a8bd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\77ceeb928524fac2d2e51dee6d33a8bd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
@@ -69,25 +71,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:18-40
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:11:9-31
+	android:hardwareAccelerated
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:14:9-43
+	tools:targetApi
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:16:9-29
+	android:largeHeap
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:15:9-33
+	android:allowBackup
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:7:41-99
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:12:9-67
+	android:usesCleartextTraffic
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:13:9-44
 activity#com.example.webapp.MainActivity
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:8:9-15:20
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:18:9-28:20
+	android:windowSoftInputMode
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:22:13-55
 	android:exported
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:10:13-36
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:20:13-36
+	android:configChanges
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:21:13-74
 	android:name
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:9:13-41
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:11:13-14:29
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:12:17-69
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:12:25-66
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:13:17-77
+ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:13:27-74
+		ADDED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\curs2\android_project_fixed\app\src\main\AndroidManifest.xml
